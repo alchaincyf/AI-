@@ -78,15 +78,15 @@
                     <div class="logo overflow-hidden">
                         <a href="" class="logo-expanded">
                             <img src="/assets/images/bt8-expand-light.png" height="40" class="logo-light"
-                                alt="bookai.top| ai工具网址导航,ai最新产品">
+                                alt="ainavi.bookai.top| ai工具网址导航,ai最新产品">
                             <img src="/assets/images/bt8-expand-dark.png" height="40" class="logo-dark d-none"
-                                alt="bookai.top| ai工具网址导航,ai最新产品">
+                                alt="ainavi.bookai.top| ai工具网址导航,ai最新产品">
                         </a>
                         <a href="" class="logo-collapsed">
                             <img src="/assets/images/bt.png" height="40" class="logo-light"
-                                alt="bookai.top| ai工具网址导航,ai最新产品">
+                                alt="ainavi.bookai.top| ai工具网址导航,ai最新产品">
                             <img src="/assets/images/bt.png" height="40" class="logo-dark d-none"
-                                alt="bookai.top| ai工具网址导航,ai最新产品">
+                                alt="ainavi.bookai.top| ai工具网址导航,ai最新产品">
                         </a>
                     </div>
                     
@@ -258,11 +258,11 @@
             <div class="navbar navbar-expand-md">
                 <div class="container-fluid p-0">
 
-                    <a href="" class="navbar-brand d-md-none" title="bookai.top| ai工具网址导航,ai最新产品">
+                    <a href="" class="navbar-brand d-md-none" title="ainavi.bookai.top| ai工具网址导航,ai最新产品">
                         <img src="/assets/images/bt.png" class="logo-light"
-                            alt="bookai.top| ai工具网址导航,ai最新产品">
+                            alt="ainavi.bookai.top| ai工具网址导航,ai最新产品">
                         <img src="/assets/images/bt.png" class="logo-dark d-none"
-                            alt="bookai.top| ai工具网址导航,ai最新产品">
+                            alt="ainavi.bookai.top| ai工具网址导航,ai最新产品">
                     </a>
 
                     <div class="collapse navbar-collapse order-2 order-md-1">
@@ -326,7 +326,32 @@
                     <ul class="nav navbar-menu text-xs order-1 order-md-2">
                         
                         
-
+                        <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
+                            <script>
+                                fetch('https://v1.hitokoto.cn')
+                                    .then(response => response.json())
+                                    .then(data => {
+                                    const hitokoto = document.getElementById('hitokoto_text')
+                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                    hitokoto.innerText = data.hitokoto
+                                    })
+                                    .catch(console.error)
+                            </script>                           
+                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
+                        </li>
+                        
+                        
+                        <li class="nav-search ml-3 ml-md-4">
+                            <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
+                                    class="iconfont icon-search icon-2x"></i></a>
+                        </li>
+                        <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
+                            <a href="javascript:" id="sidebar-switch" data-toggle="modal"
+                                data-target="#sidebar"><i class="iconfont icon-classification icon-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="placeholder" style="height:74px"></div>
     </div>
@@ -335,7 +360,7 @@
 
 <div class="header-big  post-top css-color mb-4" id="search-bg" style="">
     <div style="font-size:12px">          
-        <h1 style="font-size:18px;text-align: center;">bookai.top AI导航</h1>        
+        <h1 style="font-size:18px;text-align: center;">ainavi.bookai.top AI导航</h1>        
     </div>
     <div class="s-search">
         <div id="search" class="s-search mx-auto">
@@ -596,7 +621,7 @@
                     <div class="carousel slide" data-ride="carousel" data-interval="3000">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <a class="overflowClip_1" href="https://ainavi.bookai.top/news/2024/08/20240830/" rel="bulletin">20240830 OpenAI AI 聊天机器人周活跃用户超 2 亿</a>
+                                <a class="overflowClip_1" href="https://bookai.top/news/2024/08/20240830/" rel="bulletin">20240830 OpenAI AI 聊天机器人周活跃用户超 2 亿</a>
                             </div>
                         </div>
                     </div>
@@ -606,7 +631,7 @@
                     <div class="carousel slide" data-ride="carousel" data-interval="3000">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <a class="overflowClip_1" href="https://ainavi.bookai.top/news/2024/08/20240829/" rel="bulletin">20240829 OpenAI融资谈判 估值或超1000亿美元</a>
+                                <a class="overflowClip_1" href="https://bookai.top/news/2024/08/20240829/" rel="bulletin">20240829 OpenAI融资谈判 估值或超1000亿美元</a>
                             </div>
                         </div>
                     </div>
@@ -616,7 +641,7 @@
                     <div class="carousel slide" data-ride="carousel" data-interval="3000">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <a class="overflowClip_1" href="https://ainavi.bookai.top/news/2024/08/20240828/" rel="bulletin">20240828 OpenAI神秘“草莓”项目将推出新AI产品</a>
+                                <a class="overflowClip_1" href="https://bookai.top/news/2024/08/20240828/" rel="bulletin">20240828 OpenAI神秘“草莓”项目将推出新AI产品</a>
                             </div>
                         </div>
                     </div>
@@ -646,37 +671,37 @@
 
                     
                         <div data-desc="现代文转古文大模型  现代文转古文大模型通过输入现代汉语生成古汉语句子，基于荀子基座模型进行微调训练。">
-                            <a href="https://ainavi.bookai.top/newtutorial/2024/08/ancient_text_generation_LLM/">
+                            <a href="https://bookai.top/newtutorial/2024/08/ancient_text_generation_LLM/">
                                 <img src="/images/aitools/2024/08/ancient_text_generation_LLM.jpg" alt="现代文转古文大模型 ">
                             </a>
                         </div>
                     
                         <div data-desc="Firecrawl  Firecrawl 是一个API服务，能够抓取网站并将其转换为适合大语言模型的Markdown或结构化数据。">
-                            <a href="https://ainavi.bookai.top/newtutorial/2024/08/firecrawl/">
+                            <a href="https://bookai.top/newtutorial/2024/08/firecrawl/">
                                 <img src="/images/aitools/2024/08/firecrawl.jpg" alt="Firecrawl ">
                             </a>
                         </div>
                     
                         <div data-desc="Phi-Mamba  Phi-Mamba是一种基于Mamba的亚二次模型，通过MOHAWK方法从Phi-1.5提炼得来，使用了3B令牌。">
-                            <a href="https://ainavi.bookai.top/newtutorial/2024/08/phi-mamba/">
+                            <a href="https://bookai.top/newtutorial/2024/08/phi-mamba/">
                                 <img src="/images/aitools/2024/08/phi-mamba.jpg" alt="Phi-Mamba ">
                             </a>
                         </div>
                     
                         <div data-desc="HashHop  HashHop是一个用于长上下文架构评估的基准，其代码可以通过GitHub获取和使用。">
-                            <a href="https://ainavi.bookai.top/newtutorial/2024/08/hash-hop/">
+                            <a href="https://bookai.top/newtutorial/2024/08/hash-hop/">
                                 <img src="/images/aitools/2024/08/hash-hop.jpg" alt="HashHop ">
                             </a>
                         </div>
                     
                         <div data-desc="Qwen2-VL  Qwen2-VL是一个先进的视觉语言模型，具备图像和视频理解、多语言支持及智能设备操作功能。">
-                            <a href="https://ainavi.bookai.top/newtutorial/2024/08/Qwen2-VL/">
+                            <a href="https://bookai.top/newtutorial/2024/08/Qwen2-VL/">
                                 <img src="/images/aitools/2024/08/Qwen2-VL.jpg" alt="Qwen2-VL ">
                             </a>
                         </div>
                     
                         <div data-desc="Claude Engineer  Claude Engineer是一款在GitHub上托管的开源开发工具，致力于自动化工作流和提高开发效率。">
-                            <a href="https://ainavi.bookai.top/newtutorial/2024/08/claude-engineer/">
+                            <a href="https://bookai.top/newtutorial/2024/08/claude-engineer/">
                                 <img src="/images/aitools/2024/08/claude-engineer.jpg" alt="Claude Engineer ">
                             </a>
                         </div>
@@ -1081,7 +1106,7 @@
                        
 							
 										   <a href="https://github.com/go2coding/go2coding.github.io" target="_blank" data-id="" data-url="https://github.com/go2coding/go2coding.github.io" 
-                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="bookai.top开源项目在github上的地址">
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="ainavi.bookai.top开源项目在github上的地址">
 										
 										
 			
@@ -1091,15 +1116,15 @@
                                         
 					    
                                             <img class="lazy" src="assets/images/logos/github.png" data-src="assets/images/logos/github.png"
-                                                onerror="javascript:this.src='assets\/images\/logos\/default.webp'" alt="bookai.top开源项目">
+                                                onerror="javascript:this.src='assets\/images\/logos\/default.webp'" alt="ainavi.bookai.top开源项目">
 					    
                                         
                                     </div>
                                     <div class="url-info flex-fill">
                                         <div class="text-sm overflowClip_1">
-                                            <strong>bookai.top开源项目</strong>
+                                            <strong>ainavi.bookai.top开源项目</strong>
                                         </div>
-										<p class="overflowClip_1 m-0 text-muted text-xs">bookai.top开源项目在github上的地址</p>
+										<p class="overflowClip_1 m-0 text-muted text-xs">ainavi.bookai.top开源项目在github上的地址</p>
                                     </div>
                                 </div>
                             </div>
@@ -8353,12 +8378,12 @@
                             
 
     <h4 class="text-gray text-lg mb-4">
-        <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>主站链接
+        <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
     </h4>
     <div class="friendlink text-xs card">
         <div class="card-body"> 
 	    
-	    <a href="https://bookai.top/" title="bookai.top 最佳AI学习网站" target="_blank">bookai.top 最佳AI学习网站</a>
+	    <a href="https://bookai.top/" title="bookai.top AI工具导航" target="_blank">bookai.top AI工具导航</a>
 	    
         </div>
     </div>
@@ -8387,7 +8412,7 @@
                 
             </div>
             <div class="footer-inner">
-                <div class="footer-text">感谢使用bookai.top</div>
+                <div class="footer-text">本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：bookai.top@gmail.com <br/>© 2022 - 2024 By <a href="https://github.com/shenweiyan/WebStack-Hugo">WebStack-Hugo</a> | <a href="https://www.bookai.top/">bookai.top AI工具导航</a>)<br/></div>
             </div>
         </footer>
     </div>
@@ -8691,5 +8716,4 @@ function switchNightMode(){
 
 </body>
 </html>
-
 
