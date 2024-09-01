@@ -1,14 +1,10 @@
-
-
 ## 免费Chatgpt
-
 
 - Chatgpt 网址： https://chatgpt.com/
       
-
 ## 特色功能
 
-aibard123.com 是一个开源导航网站，旨在为爱好人工智能的人提供一个全面的资源汇总平台。它主要包含以下四个核心功能：
+ainavi.bookai.top 是一个开源导航网站，旨在为爱好人工智能的人提供一个全面的资源汇总平台。它主要包含以下四个核心功能：
 
 1. 最新AI产品介绍：展示了国内知名的AI工具和服务，为用户提供了解行业动态、快速选定合适产品的渠道。
 
@@ -17,7 +13,6 @@ aibard123.com 是一个开源导航网站，旨在为爱好人工智能的人提
 3. AI学习网站：推荐了国内外的AI学习资源和平台，从初学者到专业人士都能找到适合自己的学习路径。
 
 4. AI学习框架：介绍了当前主流的AI学习框架，为用户提供了解、选择、使用框架的便捷途径。
-
 
 ## 如何部署
 
@@ -33,7 +28,6 @@ aibard123.com 是一个开源导航网站，旨在为爱好人工智能的人提
 
 这个网址本身就是一个静态网页，下载这个工程：
 
-
 1. 获取一个域名：首先需要在中国注册一个域名，可以选择国内的域名注册服务商，如阿里云、腾讯云、华为云等。
 
 2. 选择一个托管服务：可以选择国内的云托管服务商，如阿里云、腾讯云、华为云等。这些服务商提供了静态网站托管服务，可以很方便地将静态网页部署到服务器上。
@@ -44,30 +38,26 @@ aibard123.com 是一个开源导航网站，旨在为爱好人工智能的人提
 
 - AI工具导航
 
-![aibard123_screenshot](https://aibard123.com/assets/images/screenshot/shot.png)
+![ainavi_screenshot](https://ainavi.bookai.top/assets/images/screenshot/shot.png)
 
 - AI日报
 
-![aibard123_screenshot](https://aibard123.com/assets/images/screenshot/aireport.png)
+![ainavi_screenshot](https://ainavi.bookai.top/assets/images/screenshot/aireport.png)
 
 - AI新工具
 
-![aibard123_screenshot](https://aibard123.com/assets/images/screenshot/aitools.jpg)
+![ainavi_screenshot](https://ainavi.bookai.top/assets/images/screenshot/aitools.jpg)
 
-如果想看看效果可也访问：[aibard123.com](https://aibard123.com/?github_web) 或者[aibard123.top](https://aibard123.top/?github_web)
-
+如果想看看效果可也访问：[ainavi.bookai.top](https://ainavi.bookai.top/?github_web) 或者[ainavi.bookai.top](https://ainavi.bookai.top/?github_web)
 
 #### 合作：
 
 如需合作可以联系QQ；1752338621
 
+#### 关注AiNavi公众号
 
-#### 关注AiBard123公众号
+AiNavi公众号推荐好玩的AI工具
 
-AiBard123公众号推荐好玩的AI工具
-
-
-![AiBard123公众号](https://aibard123.com/assets/images/screenshot/qrcode_for_gh_dde1b429630d_258.jpg)
-
+![AiNavi公众号](https://ainavi.bookai.top/assets/images/screenshot/qrcode_for_gh_dde1b429630d_258.jpg)
 
 感谢 [一个基于 Hugo 的静态响应式网址导航主题](https://github.com/shenweiyan/WebStack-Hugo)， 他是 在 [一个基于 Hugo 的静态响应式网址导航主题](https://github.com/shenweiyan/WebStack-Hugo)的基础上修改而来，感谢[webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 和其他人的贡献。
